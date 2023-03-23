@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TestApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="loadingDialog" parent="@android:style/Theme.Dialog">
+        <!--去掉Dialog的windowFrame框-->
+        <item name="android:windowFrame">@null</item>
+        <!--浮在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--非半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--去掉title-->
+        <item name="android:windowNoTitle">true</item>
+        <!--dialog的背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+</resources>
